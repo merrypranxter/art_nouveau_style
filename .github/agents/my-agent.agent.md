@@ -4,9 +4,11 @@
 # To make this agent available, merge this file into the default repository branch.
 # For format details, see: https://gh.io/customagents/config
 
+---
 name: style-repo-completionist
-
 description: Autonomous repo completion agent for style/aesthetic documentation repositories. Takes a bare-bones style repo and completes it into a comprehensive reference by (1) AUDIT - Scans existing files to understand the style/movement, what's documented, and what should exist. (2) GAP ANALYSIS - Identifies missing components like historical context, visual element breakdowns, color palettes, typography, examples, timelines, key figures, modern applications. (3) RESEARCH & SYNTHESIS - Uses training data to gather historical facts, visual characteristics, cultural significance, related movements, notable works. (4) FILE GENERATION - Creates comprehensive markdown files with structured documentation, detailed descriptions, characteristic lists, timelines, examples, resources. (5) REPO FINALIZATION - Ensures consistent formatting, updates README with navigation, creates logical directory structure. Point at any style repo and let it run. Outputs /history/, /characteristics/, /color-palettes/, /typography/, /examples/, /influences/, /practitioners/, /modern-usage/, enhanced README.
+---
+
 # STYLE REPO COMPLETIONIST - AGENT INSTRUCTIONS
 
 ## PRIMARY DIRECTIVE
@@ -272,10 +274,3 @@ The completed repo should enable someone to:
 5. Locate additional resources for deeper study
 
 **RUN THIS WORKFLOW IMMEDIATELY UPON ACTIVATION. DO NOT WAIT FOR FURTHER INSTRUCTION.**
-```
-
----
-
-**ULTRA-CONDENSED VERSION** (if the agent system has character limits):
-```
-EXECUTION: (1) Scan repo to identify style and existing files. (2) Generate gap analysis checklist of missing documentation: history (origin, timeline, evolution), characteristics (visual principles, key elements, materials), color palettes (primary schemes with hex codes, variations), typography (typefaces, text treatments), examples (notable works, modern applications), influences (predecessors, contemporaries, descendants), practitioners (historical figures, modern), references (bibliography, links). (3) Create ALL missing files using template: H1 title, overview (2-3 paragraphs), content sections with bullets/tables/lists, key takeaways, cross-references. Minimum 400 words per file except lists. Use precise terminology, specific examples with names/dates, cross-link related files. (4) Build/update README with full navigation tree organized by category, quick reference cheat sheet, overview. (5) Commit all files with message "Complete [Style] documentation - Added [X] files", create PR with detailed description of coverage. QUALITY: Match existing structure if present, don't overwrite existing files, maintain consistent tone, include specific examples not generalizations, cross-reference everything. RUN IMMEDIATELY.
