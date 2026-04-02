@@ -25,3 +25,11 @@ This repo converts prior PDF context into clean, reusable markdown guidance for:
 
 ## Notes
 The original source PDFs were archival context and have been replaced by concise canonical markdown docs for easier maintenance.
+
+## Expansion planning docs
+- `GAP_ANALYSIS_AND_EXPANSION_PLAN.md` — Explicit analysis of what was missing and how to expand in small packets.
+- `TASK_BOARD.md` — Granular, ordered work items to ship incrementally.
+- `prompts/prompt_slot_system.md` — Strict slot-based prompt syntax for reproducibility.
+- `reference/typography_system.md` — Typography hierarchy and placement rules.
+- `reference/composition_blueprints.md` — Numeric composition zone maps.
+- `QA_PATCH_LIBRARY.md` — Symptom-to-fix snippets for rapid correction.
